@@ -28,7 +28,7 @@ jobs:
         with: 
           username: ${{ github.actor }}
           password: $ {{ secrets.GITHUB_TOKEN }}
-          repository: Ramona84/next
+          repository: ramona84/next
           tags: latest, ${{ github.run_number }} 
 
     
